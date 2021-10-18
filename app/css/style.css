@@ -26,23 +26,48 @@
     align-items: center;
 }
 .navcontent{
-    display:block;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: calc(100% - 70px);
     
+}
+.icons{
+    justify-content:center;
+    text-align: center;
     
 }
 .navicon{
     margin-top: 20px;
     
 }
+.powerbutton{
+    align-self: center;
+    position: absolute;
+    bottom:18px;
+}
 .navlabel{
-    margin: 10px;
+    margin-top: 5px;
     font-size: 10pt;
     color:white;
+    font-family: Lato, sans-serif;
+    
 }
 body {
     margin : 0;
+}
+header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px;
+    border-color: #f1f1f1;
+
+}
+.headericon {
+    width: 60px;
+    margin-left:20px;
+    border-right: solid 1px;
+    border-color: #f1f1f1;
 }
