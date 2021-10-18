@@ -25,6 +25,24 @@
     justify-content: center;
     align-items: center;
 }
+.navcontent{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.navicon{
+    margin-top: 20px;
+    
+}
+.navlabel{
+    margin: 10px;
+    font-size: 10pt;
+    color:white;
+}
 body {
     margin : 0;
 }
