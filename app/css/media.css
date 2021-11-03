@@ -1,0 +1,13 @@
+@media (max-width: 1000px){
+    .under_header{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 850px){
+    .search_header{
+        width: 200px;
+        padding: 0 5px;
+    }
+}
+
