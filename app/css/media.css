@@ -1,13 +1,43 @@
-@media (max-width: 1000px){
-    .under_header{
+@media (max-width: 1400px) {
+    .main__bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__bottom_blocks {
+        width: 100%;
+    }
+
+    .feed {
+        width: 100%;
+    }
+
+    .tasks {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .revenue__graph {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .under_header {
         flex-direction: column;
     }
 }
 
-@media (max-width: 850px){
-    .search_header{
+@media (max-width: 850px) {
+    .search_header {
         width: 200px;
         padding: 0 5px;
+    }
+
+    .progress,
+    .shipments {
+        padding: 5px;
     }
 }
 
