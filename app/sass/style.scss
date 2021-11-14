@@ -53,6 +53,7 @@ body {
 
 .powerbutton {
   margin-bottom: 18px;
+  cursor: pointer;
 }
 
 .navlabel {
@@ -413,10 +414,13 @@ header {
 .main__graph {
   margin-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   column-gap: 10px;
 }
-
+.myChart{
+  height:100%;
+  width:600px;
+}
 .chart {
   flex-grow: 1;
   margin-top: 7px;

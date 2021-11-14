@@ -13,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="sass/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <script src ="js/script.js"></script>
     <title>Document</title>
+    <script src="../node_modules/chart.js/dist/chart.min.js"></script>
 </head>
 <body>
 <div class="doc">
@@ -42,7 +44,7 @@
                     <h4 class="navlabel">Quires</h4>
                 </div>
             </div>
-            <div class="powerbutton"><img src="img/power-button.png"></div>
+            <div class="powerbutton" onclick="closewindow()"><img src="img/power-button.png"></div>
         </div>
     </div>
     <div class="main">
@@ -171,28 +173,9 @@
                             </div>
                         </div>
                         <div class="main__graph">
-                            <div class="graph__data">
-                                <h4>400k</h4>
-                                <h4>300k</h4>
-                                <h4>200k</h4>
-                                <h4>100k</h4>
-                            </div>
-                            <div class="chart">
-                                <img src="img/graph.png" alt="graph">
-                                <div class="graph__data_2">
-                                    <h4>Jan</h4>
-                                    <h4>Feb</h4>
-                                    <h4>Mar</h4>
-                                    <h4>Apr</h4>
-                                    <h4>May</h4>
-                                    <h4>Jun</h4>
-                                    <h4>Jul</h4>
-                                    <h4>Aug</h4>
-                                    <h4>Sep</h4>
-                                    <h4>Oct</h4>
-                                    <h4>Nov</h4>
-                                    <h4>Dec</h4>
-                                </div>
+                            <div class="myChart">
+                            <canvas id="myChart"></canvas>
+                            <script src ="js/myChart.js"></script>
                             </div>
                         </div>
                     </div>
