@@ -166,11 +166,14 @@ header {
   padding: 0 15px;
 }
 
-.under_header_part {
+.under_header_part,
+.under_cont{
   display: flex;
   flex-grow: 1;
   width: 100%;
 }
+
+
 
 .daily_block {
   height: 100px;
@@ -354,6 +357,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .block__title {
@@ -398,6 +402,24 @@ header {
   height: 4px;
   border-radius: 50%;
   background-color: #bfbfbf;
+}
+
+.month__dots.on div{
+  background-color: #767676;
+}
+
+.chart__menu{
+  position: absolute;
+  right: -30px;
+  top: 40px;
+  border: 1px solid #979796;
+  padding: 10px;
+  background-color: #bfbfbf;
+  display: none;
+}
+
+.chart__menu.on{
+  display: block;
 }
 
 .main__graph {
