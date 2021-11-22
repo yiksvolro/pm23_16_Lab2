@@ -412,9 +412,9 @@ header {
   position: absolute;
   right: -30px;
   top: 40px;
-  border: 1px solid #979796;
+  border: 4px solid #f1f1f1;
   padding: 10px;
-  background-color: #bfbfbf;
+  background-color: white;
   display: none;
 }
 
